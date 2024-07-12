@@ -1,0 +1,136 @@
+*{
+    padding:0;
+    margin: 0;
+    
+}
+
+
+.main-body{
+    display: flex;
+    
+}
+.left{
+    height: 100vh;
+    width: 50vw;
+    font-family: 'Playwrite CU';
+
+    background-image: url(./img1.jpg);
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    
+
+
+}
+
+.right{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100vh;
+    width: 50vw;
+    background-color: bisque;
+
+
+}
+
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+.head{
+    display: flex;
+  height: 100px;
+  width:fit-content;
+  flex-direction: column;
+
+ 
+
+ 
+
+
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+
+  
+}
+.head h1{
+    font-size: 70px;
+
+}
+
+
+.head1 p{
+    color: grey;
+}
+.head h2{
+    font-size: 20px;
+}
+
+.head1 h1{
+    font-size: 100px;
+}
+
+.main-body1{
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    text-align: center;
+
+}
+
+input
+{
+    border:brown 2px solid;
+    padding: 15px;
+    border-radius: 10px;
+    height:40px;
+    margin: 20px;
+
+    font-size: larger;
+}
+
+.forgot{
+    text-align: end;
+}
+
+button{
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+}
+
+.button-section button{
+    background-color: rgb(225, 226, 172);
+    margin: 20px;
+
+}
+
+
+label{
+    text-align: left;
+    padding: 20px;
+}
+
+.forgot a{
+    text-decoration: none;
+    color: rgb(145, 133, 133);
+}
+
+.log button{
+    background-color: brown;
+    color: white;
+}
+
+.foot a{
+    text-decoration: none;
+    color:black;
+
+}
+
+.foot{
+    color: rgb(90, 85, 85);
+}
